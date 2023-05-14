@@ -10,5 +10,8 @@ mongoimport --db=cse364 --collection=user --authenticationDatabase admin --usern
 mongoimport --db=cse364 --collection=rating --authenticationDatabase admin --username admin --password password --type=csv --file=data/ratings.csv --fields=user_id.int32\(\),movie_id.int32\(\),rating.int32\(\),timestamp.int32\(\) --columnsHaveTypes 
 mongoimport --db=cse364 --collection=movie --authenticationDatabase admin --username admin --password password --type=csv --file=data/movies.csv --fields=movie_id.int32\(\),movie_name.string\(\),genre.string\(\) --columnsHaveTypes 
 
-mvn package
-java -jar ./target/cse364-project-1.0-SNAPSHOT.jar
+# mvn package
+# java -jar ./target/cse364-project-1.0-SNAPSHOT.jar
+mvn clean package
+
+mvn spring-boot:run
