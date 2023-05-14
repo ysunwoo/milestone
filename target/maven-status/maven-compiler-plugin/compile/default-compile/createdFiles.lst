@@ -1,0 +1,3 @@
+com\example\model\ExerciseRecord.class
+com\example\repositories\ExerciseRecordRepository.class
+com\example\service\ExerciseRecordService.class
