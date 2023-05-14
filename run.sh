@@ -1,4 +1,5 @@
 git clone https://github.com/ysunwoo/milestone.git
+ls
 cd milestone
 
 #Create User Administrator MongoDB
