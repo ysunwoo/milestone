@@ -1,5 +1,5 @@
-git clone https://github.com/kurone02/CSE-364_Milestone1_Solution.git
-cd CSE-364_Milestone1_Solution
+git clone https://github.com/ysunwoo/milestone.git
+cd milestone
 
 #Create User Administrator MongoDB
 mongod --fork --logpath /var/log/mongodb.log
